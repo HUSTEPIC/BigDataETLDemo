@@ -36,8 +36,20 @@
         <artifactId>fastjson</artifactId>
         <version>1.2.49</version>
     </dependency>
+    <dependency>
+  		<groupId>org.elasticsearch.plugin</groupId>
+  		<artifactId>x-pack-sql-jdbc</artifactId>
+  		<version>6.6.2</version>
+	</dependency>
   </dependencies>
- 
+  
+ 	<repositories>
+  		<repository>
+    		<id>elastic.co</id>
+    		<url>https://artifacts.elastic.co/maven</url>
+  		</repository>
+	</repositories>
+   
  <build>
  <plugins>
   <plugin>

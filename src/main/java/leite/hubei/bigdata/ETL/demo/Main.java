@@ -61,6 +61,17 @@ public class Main {
 //        
 //        airTable.initTable("airdata20190127", "v_samples", tableFeatures);
     	
+    	if( "ESSqlQuery".equals(args[0] )) {
+        	
+    		
+    		System.out.println("----------------Query (ESSqlQuery) begin----------------");
+    		ESSqlQuery esQuery = new ESSqlQuery();
+    		esQuery.queryTest();        
+    		System.out.println("----------------Query (ESSqlQuery) finished----------------");
+    		
+        
+    	}
+    	
     	
     	
     	if( "v_samples_insert".equals(args[0] )) {
